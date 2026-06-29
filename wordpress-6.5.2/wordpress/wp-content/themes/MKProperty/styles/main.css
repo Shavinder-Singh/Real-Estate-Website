@@ -1,0 +1,134 @@
+.homepage .hompage_main {
+  width: 100%;
+  height: 110vh;
+  position: relative;
+  z-index: 0;
+  scroll-behavior: smooth;
+  /* Other styling */
+}
+
+.homepage .hompage_main .video_container {
+  width: 100%;
+  height: 100vh;
+}
+
+.homepage .hompage_main .video_container video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  max-height: 100vh;
+  max-width: 100%;
+  min-height: 113vh;
+  min-width: 100%;
+}
+
+.homepage .hompage_main .homepage_main_content {
+  top: 90px;
+}
+
+.homepage .hompage_main .homepage_main_content p {
+  font-family: poppins;
+}
+
+.homepage .hompage_main .homepage_main_content h1 {
+  font-family: poppinsBold;
+  font-weight: 200;
+}
+
+.homepage .hompage_main .homepage_main_content h1 em {
+  font-family: poppinsBold;
+  font-weight: 200;
+}
+
+.homepage .hompage_main .overlay_homepage_main {
+  position: absolute;
+  bottom: -18px;
+  left: -1px;
+  width: 100%;
+  height: 110vh;
+  min-height: 320vh;
+  background-color: rgba(35, 45, 57, 0.8);
+  z-index: 1;
+}
+
+.homepage .ReadAbout img {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  object-fit: cover;
+  height: 160vh;
+}
+
+.header_small {
+  z-index: 100;
+  position: absolute;
+}
+
+.header_small div h1 {
+  font-family: poppins;
+}
+
+.header_small div h1 em {
+  font-family: poppinsBold;
+}
+
+@media (min-width: 768px) {
+  .header_small {
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppinsMedium, sans-serif;
+}
+
+@font-face {
+  font-family: poppins;
+  src: url("../fonts/Poppins-1/Poppins-Black.ttf");
+}
+
+@font-face {
+  font-family: poppinsRegular;
+  src: url("../fonts/Poppins-1/Poppins-Regular.ttf");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: poppinsThin;
+  src: url("../fonts/Poppins-1/Poppins-Thin.ttf");
+}
+
+@font-face {
+  font-family: poppinsBold;
+  src: url("../fonts/Poppins-1/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: poppinsLight;
+  src: url("../fonts/Poppins-1/Poppins-Light.ttf");
+}
+
+@font-face {
+  font-family: poppinsMedium;
+  src: url("../fonts/Poppins-1/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: poppinssemiBold;
+  src: url("../fonts/Poppins-1/Poppins-SemiBold.ttf");
+}
+
+/*# sourceMappingURL=main.css.map */

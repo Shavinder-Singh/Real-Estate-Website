@@ -1,0 +1,50 @@
+.Contact_Page .contact_section .contact_form_container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  padding: 30px 0px;
+  position: relative;
+  top: 0;
+}
+.Contact_Page .contact_section .contact_form {
+  width: 100%;
+}
+.Contact_Page .contact_section .contact_form .wpcf7 {
+  width: 100%;
+}
+.Contact_Page .contact_section .contact_form .wpcf7 .wpcf7-response-output {
+  position: fixed;
+  z-index: 999999;
+  background: black;
+  bottom: 12px;
+  color: white;
+}
+.Contact_Page .contact_section .contact_form .wpcf7 form p {
+  background-color: white;
+  padding: 30px 20px 0px 20px;
+  border-radius: 12px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+.Contact_Page .contact_section .contact_form .wpcf7 form p span input {
+  border: 1px solid gray;
+  width: 100%;
+  padding: 10px;
+}
+.Contact_Page .contact_section .contact_form .wpcf7 form p span textarea {
+  border: 1px solid gray;
+  width: 100%;
+  padding: 10px;
+}
+.Contact_Page .contact_section .contact_form .wpcf7 form p input[type=submit] {
+  background-color: #ed563b;
+  max-width: 230px;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  transition: 0.4s;
+}
+.Contact_Page .contact_section .contact_form .wpcf7 form p input[type=submit]:hover {
+  opacity: 0.9;
+}/*# sourceMappingURL=contactpage.css.map */

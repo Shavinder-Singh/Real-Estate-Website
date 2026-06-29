@@ -1,0 +1,148 @@
+.header_small {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 0.4s;
+}
+.header_small.visible {
+  top: -90px;
+  translate: 0;
+}
+.header_small div h1 {
+  font-family: poppinsBold;
+}
+.header_small div h1 em {
+  font-family: poppinsBold;
+}
+.header_small .dropdown_navbar_mobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  display: none;
+}
+.header_small .dropdown_navbar_mobile.closePopup_Nav {
+  display: none;
+}
+.header_small .dropdown_navbar_mobile.showPopup_Nav {
+  display: flex;
+}
+.header_small .dropdown_navbar_mobile .dropdown_menu {
+  width: 100%;
+}
+.header_small .dropdown_navbar_mobile .dropdown_menu .dropdown_container {
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.header_small .dropdown_navbar_mobile .dropdown_menu .dropdown_container li {
+  border: 1px solid rgb(181, 181, 181);
+  background-color: #f7f7f7;
+  text-align: left;
+}
+.header_small .dropdown_navbar_mobile .dropdown_menu .dropdown_container li a {
+  padding: 15px;
+  display: inline-block;
+  width: 100%;
+}
+.header_small .dropdown_navbar_mobile .dropdown_menu .dropdown_container li {
+  transition: 0.3s;
+}
+.header_small .dropdown_navbar_mobile .dropdown_menu .dropdown_container li:hover {
+  color: #ed563b;
+}
+.header_small .dropdown_navbar_mobile .dropdown_menu .dropdown_container .sub_menu_mobile {
+  margin-top: -24px;
+}
+.header_small .dropdown_navbar_mobile .dropdown_menu .dropdown_container .sub_menu_mobile li {
+  transition: 0.3s;
+  padding: 15px;
+}
+.header_small .dropdown_navbar_mobile .dropdown_menu .dropdown_container .sub_menu_mobile li a {
+  padding: 0px;
+}
+.header_small .dropdown_navbar_mobile .dropdown_menu .dropdown_container .sub_menu_mobile li:hover {
+  color: red;
+}
+.header_small .dropdown_navbar_mobile .dropdown_menu .dropdown_container .About {
+  overflow: scroll;
+}
+.header_small .dropdown_navbar_mobile .dropdown_menu .dropdown_container .About a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_small .dropdown_navbar_mobile .dropdown_menu .dropdown_container .sub_menu_mobile {
+  display: none;
+}
+.header_small .dropdown_navbar_mobile .dropdown_menu .dropdown_container .sub_menu_mobile.showSmallSubMenus {
+  display: block;
+  height: 107px;
+}
+
+.rotateMobileArrow {
+  transform: rotate(179deg);
+}
+
+.header_laptop {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 2s;
+}
+.header_laptop.visible {
+  top: -100px;
+  translate: 0;
+}
+.header_laptop .arrow_icon_about_laptop.show_black_arrow,
+.header_laptop svg.show_black_arrow,
+.header_laptop g.show_black_arrow,
+.header_laptop path.show_black_arrow {
+  fill: black;
+}
+.header_laptop .dropdown_navbar_laptop .dropdown_menu_laptop .dropdown_container_laptop li {
+  transition: 0.3s;
+}
+.header_laptop .dropdown_navbar_laptop .dropdown_menu_laptop .dropdown_container_laptop li:hover {
+  color: #ed563b;
+}
+.header_laptop .dropdown_navbar_laptop .dropdown_menu_laptop .dropdown_container_laptop .About {
+  position: relative;
+  top: 0;
+  display: flex;
+}
+.header_laptop .dropdown_navbar_laptop .dropdown_menu_laptop .dropdown_container_laptop .About a {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_laptop .dropdown_navbar_laptop .dropdown_menu_laptop .dropdown_container_laptop .sub_menu_laptop {
+  display: none;
+}
+.header_laptop .dropdown_navbar_laptop .dropdown_menu_laptop .dropdown_container_laptop .sub_menu_laptop.showlaptopSubMenus {
+  display: block;
+}
+.header_laptop .dropdown_navbar_laptop.arrow_icon_about_laptop {
+  transform: rotate(79deg);
+}
+
+@media (min-width: 768px) {
+  .header_small {
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+}/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,19 @@
+.homepage_header .main_image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  object-fit: cover;
+  top: 0;
+}
+.homepage_header .overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: rgba(70, 35, 122, 0.7);
+  height: 100%;
+  z-index: 1;
+}
+
+/*# sourceMappingURL=main.css.map */
